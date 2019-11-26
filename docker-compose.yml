@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+    command: flask run -h 0.0.0.0 -p 8000 --without-threads
+    environment:
+      FLASK_ENV: development
