@@ -178,9 +178,9 @@ def find_alien(object_dna):
     y2 = y1
     r2 = r1
     for report in alien['report']:
-        if report['robot']['postion']['x'] != x1 or report['robot']['postion']['y']!=y1:
-            x2 = report['robot']['postion']['x']
-            y2 = report['robot']['postion']['y']
+        if report['robot']['position']['x'] != x1 or report['robot']['position']['y']!=y1:
+            x2 = report['robot']['position']['x']
+            y2 = report['robot']['position']['y']
             break
     if x1 == x2 and y1 == y2:
         return '', 424
