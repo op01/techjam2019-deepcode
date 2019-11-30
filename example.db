@@ -1,1 +1,1 @@
-{"var_x": -150.0, "count": 16}
+{"robot#1": {"position": {"x": 0, "y": 0}, "id": "robot#1"}, "robot#2": {"position": {"x": 0, "y": 0}, "id": "robot#2"}, "robot#3": {"position": {}, "id": "robot#3"}, "alien#abcd": {"report": [{"distance": 3.162, "robot": {"position": {}, "id": "robot#1"}}]}, "alien#abcdefghijklmnop": {"report": [{"distance": 3.162, "robot": {"position": {"x": 0, "y": 0}, "id": "robot#1"}}]}}
